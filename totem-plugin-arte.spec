@@ -16,6 +16,7 @@ BuildRequires: libgee-devel
 BuildRequires: libsoup-devel
 BuildRequires: libGConf2-devel
 BuildRequires: totem-plparser-devel
+BuildRequires: gtk2-devel
 Requires: totem
 
 
@@ -36,6 +37,10 @@ make
 rm -rf %{buildroot}
 %makeinstall_std
 %find_lang totem-arte
+
+%if %_lib != lib
+mv %buildroot%_prefix/lib %buildroot%_libdir
+%endif
 
 %clean
 rm -rf %{buildroot}
