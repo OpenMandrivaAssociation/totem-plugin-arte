@@ -1,14 +1,12 @@
 %define name totem-plugin-arte
-%define version 0.8
-%define release %mkrel 3
+%define version 0.8.1
+%define release %mkrel 1
 
 Summary: Arte Totem plugin
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://wenner.ch/files/public/mirror/%name/%name-%version.tar.gz
-#gw really create cache directory (bug #57684)
-Patch: totem-plugin-arte-0.8-fix-cache-directory.patch
 License: GPLv2+
 Group: Video
 Url: http://gitorious.org/totem-plugin-arte
