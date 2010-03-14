@@ -12,7 +12,6 @@ Group: Video
 Url: http://gitorious.org/totem-plugin-arte
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: vala >= 0.7.10
-BuildRequires: libgee-devel
 BuildRequires: libsoup-devel
 BuildRequires: libGConf2-devel
 BuildRequires: totem-plparser-devel
