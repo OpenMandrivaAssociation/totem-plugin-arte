@@ -7,7 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://wenner.ch/files/public/mirror/%name/%name-%version.tar.gz
-License: GPLv2+
+License: GPLv2+ with exception
 Group: Video
 Url: http://gitorious.org/totem-plugin-arte
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
