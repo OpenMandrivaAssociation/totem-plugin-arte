@@ -47,6 +47,6 @@ rm -rf %{buildroot}
 
 %files -f totem-arte.lang
 %defattr(-,root,root)
-%doc README
+%doc README NEWS
 %_libdir/totem/plugins/arteplus7
 
