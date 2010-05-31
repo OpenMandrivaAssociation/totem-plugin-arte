@@ -17,6 +17,8 @@ BuildRequires: libGConf2-devel
 BuildRequires: totem-plparser-devel
 BuildRequires: gtk2-devel
 Requires: totem
+#gw as long as it streams the wmv version (0.8.4)
+Requires: gstreamer0.10-mms
 
 
 %description
