@@ -1,5 +1,5 @@
 %define name totem-plugin-arte
-%define version 0.8.4
+%define version 0.9.0
 %define release %mkrel 1
 
 Summary: Arte Totem plugin
