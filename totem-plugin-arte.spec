@@ -9,7 +9,7 @@ Release: %{release}
 Source0: http://wenner.ch/files/public/mirror/%name/%name-%version.tar.gz
 License: GPLv2+ with exception
 Group: Video
-Url: http://gitorious.org/totem-plugin-arte
+Url: https://gitorious.org/totem-plugin-arte
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: vala >= 0.7.10
 BuildRequires: libsoup-devel
